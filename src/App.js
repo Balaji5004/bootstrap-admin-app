@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom';
 import Buttons from './Components/Buttons';
 import Animations from './Components/Animations';
 import Nopage from './Components/Nopage';
+import Tables from './Components/Tables';
 
 
 function App() {
@@ -25,6 +26,10 @@ function App() {
 
       <Route path="/nopage">
        <Nopage/>
+      </Route>
+
+      <Route path="/tables">
+        <Tables/>
       </Route>
 
     </Switch>

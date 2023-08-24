@@ -59,7 +59,7 @@ function Base({children}) {
              </div>
 
              <p className='btns' onClick={""}>Charts</p>
-             <p className='btns' onClick={""}>Tables</p>
+             <p className='btns' onClick={()=>history.push("/tables")}>Tables</p>
 
 
         </div>
